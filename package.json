@@ -1,0 +1,27 @@
+{
+  "name": "simple-jwt",
+  "version": "1.0.0",
+  "description": "Simple JWT issuing (authorization) server using Node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rajeevpmr/simple-jwt.git"
+  },
+  "keywords": [
+    "jwt"
+  ],
+  "author": "Rajeev Ramachandran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rajeevpmr/simple-jwt/issues"
+  },
+  "homepage": "https://github.com/rajeevpmr/simple-jwt#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "express-jwt": "^5.3.1",
+    "jsonwebtoken": "^8.3.0"
+  }
+}
